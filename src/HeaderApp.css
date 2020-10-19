@@ -1,0 +1,21 @@
+.antet {
+  /* background: url(./backhead.png) right no-repeat; */
+  background-size: 100%;
+  background-color: black;
+  /* height: 15vh; */
+}
+
+.naviaut {
+  margin-left: auto;
+}
+
+.titlec {
+  margin-right: auto;
+}
+
+
+@media only screen and (max-width: 920px) {
+  #homeLink {
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,32 @@
+.picttmb {
+  transform-origin: center -20px;
+  box-shadow: 12px 12px 20px black;
+  cursor: zoom-in;
+}
+
+.pictEnt {
+  animation: balans ease-in-out 3s 2 alternate;
+}
+
+@keyframes balans {
+  0% { transform: rotate(0deg); }
+  50% { transform: rotate(2deg); }
+  100% { transform: rotate(-2deg); }
+}
+
+.nail {
+  height: 7px;
+  width: 7px;
+  transform: rotate(40deg);
+  background-color: #555;
+  border-radius: 50%;
+}
+
+.pictura {
+  box-shadow: 7px 10px 4px grey;
+}
+
+.descri {
+  background-color: #484166;
+  box-shadow: 3px 3px 4px grey;
+}
