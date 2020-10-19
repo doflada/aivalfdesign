@@ -1,3 +1,5 @@
+Project for display a gallery of paintings.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
