@@ -42,7 +42,7 @@ class PictureCard extends Component {
         <div className="nail center pb2 pt0"></div>
         <img className= 'pictura mb2' alt='Picturi' src={tumbPoza} />
         <div className="f6 mt0 pa0">
-           <div className = 'descri ma1 br3 pa1 i near-white'>{descr}</div>
+           <div className = 'descri ma1 br3 pa1 i black'>{descr}</div>
            <div>{tip}</div>
            <div>{culori}</div>
            <div>{dimens}</div>

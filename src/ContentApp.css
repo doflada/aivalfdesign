@@ -5,6 +5,7 @@
   position: sticky;
   top: 5px;
   z-index: 9999;
+  background-color: #FFCC66;
   box-shadow: 12px 12px 20px rgba(0, 0, 0, 0.5);
 }
 

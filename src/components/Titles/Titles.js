@@ -5,8 +5,8 @@ import './backtit.png';
 const Titles = () => {
   return (
     <div className='titlu flex flex-column tc ml3 pa1'>
-      <div className='center i b f1'> Aivalf Design </div>
-      <div className='center b f4 moon-gray'> Build to design ! </div>
+      <div className='center b f1'> Aivalf Design </div>
+      <div className='b f3 moon-gray'> Build to design ! </div>
     </div>
   )
 }

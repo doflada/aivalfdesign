@@ -6,7 +6,7 @@ import './ContentApp.css';
 function ContentApp() {
   return (
     <div id='contentLink' className='ma2'>
-      <div className = 'titCo f3 pa2 br4 i tc white bg-purple '>
+      <div className = 'titCo f3 pa2 br4 i tc white'>
         Wonderful gallery of paintings by me:
       </div>
       <div>
