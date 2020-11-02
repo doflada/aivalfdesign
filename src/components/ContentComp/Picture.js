@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
 import PictureCard from './PictureCard';
-import { pozele } from './pozele';
 
 import './Picture.css';
 
 class Picture extends Component {
 
   render() {
+
+    const { pozele } = this.props;
 
     const cardPicture = pozele.map((poza, i) => {
       return (
