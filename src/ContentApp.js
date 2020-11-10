@@ -9,7 +9,7 @@ function ContentApp() {
   return (
     <div id='contentLink'>
       <div className='ma2'>
-        <div className = 'titCo f3 pa2 br4 b i tc white'>
+        <div id = "pict-id" className = 'titCo f3 pa2 br4 b i tc white'>
           Picturi:
         </div>
         <div>
@@ -17,7 +17,7 @@ function ContentApp() {
         </div>
       </div>
       <div className='ma2'>
-        <div className = 'titCo f3 pa2 br4 b i tc white'>
+        <div id = "schi-id" className = 'titCo f3 pa2 br4 b i tc white'>
           Schite:
         </div>
         <div>

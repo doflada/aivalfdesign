@@ -8,7 +8,7 @@ import './App.css';
 
 function App() {
   return (
-    <div>
+    <div id='main-id' className='flex justify-between flex-column'>
         <HeaderApp />
       <div className = 'scroll'>
         <AboutApp />

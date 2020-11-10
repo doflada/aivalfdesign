@@ -4,7 +4,7 @@ import './ByAuthor.css';
 
 const ByAuthor = () => {
   return (
-    <div className='flex items-center justify-between '>
+    <div className='byaut flex items-center justify-between '>
       <div className='autpoz moon-gray f4 i pr1'>
         by Flavia
       </div>

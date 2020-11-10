@@ -4,7 +4,7 @@ import './Logo.css';
 
 const Logo = () => {
   return (
-    <div className='ml3 tc w-15'>
+    <div className='ml3 mt1 tc w-15'>
       <img className='logo grow' alt='logo Aivalf' src={logo} />
     </div>
   )

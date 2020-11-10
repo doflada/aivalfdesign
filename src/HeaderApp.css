@@ -1,8 +1,7 @@
 .antet {
-  /* background: url(./backhead.png) right no-repeat; */
   background-size: 100%;
   background-color: black;
-  /* height: 15vh; */
+  height: auto;
 }
 
 .naviaut {
@@ -13,9 +12,14 @@
   margin-right: auto;
 }
 
+@media only screen and (max-width: 1300px) {
+  .logotit {
+    flex-direction: column;
+  }
+}
 
-@media only screen and (max-width: 920px) {
-  #homeLink {
+@media only screen and (max-width: 800px) {
+  .antet, .naviaut {
     flex-direction: column;
   }
 }

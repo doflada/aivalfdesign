@@ -4,3 +4,13 @@
   text-shadow: 5px 5px 0 #555,
                   9px 9px 0 black;
 }
+
+@media only screen and (max-width: 1470px) {
+  .titlu {
+    font-size: 1.5rem;
+  }
+
+  .sectitle {
+    font-size: 1rem;
+  }
+}

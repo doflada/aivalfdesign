@@ -1,4 +1,24 @@
+#nav-id {
+  margin-left: auto;
+  flex-wrap: wrap;
+}
+
 .linkuri {
   box-shadow: 5px 3px 5px #696969;
   background-color: #74CFB0;
+  font-size: 16px;
+  margin: 2px;
+  width: auto;
+  height: 40px;
+}
+
+
+.linkuri:hover {
+  text-decoration: underline;
+}
+
+@media only screen and (max-width: 800px) {
+  #nav-id {
+    margin-right: auto;
+  }
 }

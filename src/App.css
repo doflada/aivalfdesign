@@ -1,8 +1,12 @@
+#main-id {
+  height: 100vh;
+}
+
 .scroll {
   overflow-y: scroll;
   scrollbar-width: thin;
   scrollbar-color: white black;
-  height: 81vh;
+  height: auto;
 }
 
 .scroll::-webkit-scrollbar {
@@ -11,6 +15,7 @@
 
 .scroll::-webkit-scrollbar-track {
   background: black;
+  border-radius: 6px;
 }
 
 .scroll::-webkit-scrollbar-thumb {

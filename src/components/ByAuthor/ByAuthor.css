@@ -1,13 +1,26 @@
+.byaut {
+  margin-left: auto;
+}
+
 .autpoz {
   font-family: 'Indie Flower', cursive;
   text-shadow: 3px 3px 0 #555,
                   6px 6px 0 black;
-  margin-left: auto;
-  /* box-shadow: 8px 4px 3px black; */
 }
 
 .poza {
   width: 60px;
+  min-width: 60px;
   height: 50px;
+  min-height: 50px;
   box-shadow: 6px 4px 2px gray;
+}
+
+@media only screen and (max-width: 800px) {
+  .byaut {
+    margin-right: auto;
+  }
+  .autpoz {
+    flex-direction: column;
+  }
 }

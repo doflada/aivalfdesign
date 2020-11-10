@@ -4,7 +4,7 @@ import './AboutApp.css';
 
 function AboutApp() {
   return (
-    <div className='flex ma1 items-center '>
+    <div id= "about-id" className='flex ma1 items-center '>
       <img className='pozaa br4 ma1' alt='Flavia' src={imagFla} />
       <div className=''>
         <p className='descrierea ml4 3rem i b'> &bull; inginer chimist <br/>

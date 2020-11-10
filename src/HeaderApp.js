@@ -7,12 +7,14 @@ import './HeaderApp.css';
 
 function HeaderApp() {
   return (
-    <header  id = "homeLink" className='antet ml2 mt1 mr2 br4 flex items-center justify-between'>
-      <Logo />
-      <Titles className='titlec' />
-      <div className='naviaut flex flex-column justify-between pa2'>
-        <ByAuthor />
+    <header className='antet ml2 mt1 mr2 br4 flex items-center justify-between'>
+      <div className = "logotit flex">
+        <Logo />
+        <Titles className='titlec' />
+      </div>
+      <div className='naviaut flex pa2'>
         <NavBarComp />
+        <ByAuthor />
       </div>
     </header>
   )
