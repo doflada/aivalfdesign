@@ -24,7 +24,7 @@ class Picture extends Component {
 
     return (
       <div id='picts' className='ma3'>
-        <div className='flex flex-wrap items-center justify-between'>
+        <div className='pictc flex flex-wrap items-center justify-between'>
          {cardPicture}
         </div>
       </div>
