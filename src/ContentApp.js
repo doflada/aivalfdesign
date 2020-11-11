@@ -4,6 +4,7 @@ import { pozele } from './components/ContentComp/pozele';
 import { schitele } from './components/ContentComp/schitele';
 import { bijuterii } from './components/ContentComp/bijuterii';
 import { decoratiuni } from './components/ContentComp/decoratiuni';
+import { carte } from './components/ContentComp/carte';
 
 import './ContentApp.css';
 
@@ -40,6 +41,17 @@ function ContentApp() {
         </div>
         <div>
           <Picture pozele = { decoratiuni } />
+        </div>
+      </div>
+      <div id = "carte-id" className='ma2'>
+        <div className = 'titCo f3 pa2 br4 b i tc white'>
+          Agende / carti:
+        </div>
+        <div className = 'titCo f3 pa2 ml4 mt2 br4 b i tc white'>
+          Carte de activitati:
+        </div>
+        <div>
+          <Picture pozele = { carte } />
         </div>
       </div>
     </div>

@@ -1,5 +1,6 @@
 import React from 'react';
 import imagFla from './logoAbout.jpeg';
+import portoRO from './PortfolioAivalfRO.pdf';
 import './AboutApp.css';
 
 function AboutApp() {
@@ -11,6 +12,10 @@ function AboutApp() {
                                                 &bull; pasionata de desen si pictura <br/>
                                                 &bull; creativa si indemanatica</p>
         <p className='descrierea ml2 3rem i b'>Va invit sa studiati lucrarile mele si daca sunt care va plac nu ezitati sa ma contactati.</p>
+      </div>
+      <div className='descrierea ml2 3rem i b'>
+        Puteti descarca portofoliul de aici ->
+        <a href = {portoRO} target = "_blank" rel="noopener noreferrer">Portofoliul pdf</a>
       </div>
     </div>
   )
