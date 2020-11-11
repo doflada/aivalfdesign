@@ -12,7 +12,6 @@ class Modal extends Component {
   }
 
   render() {
-    console.log(this.props.zoom);
     return (
     <React.Fragment>
       {this.props.zoom && (
