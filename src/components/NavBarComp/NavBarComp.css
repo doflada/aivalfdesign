@@ -20,4 +20,10 @@
   #nav-id {
     margin-right: auto;
   }
+  .linkuri {
+    font-size: 10px;
+    margin: 1px;
+    width: auto;
+    height: 24px;
+  }
 }

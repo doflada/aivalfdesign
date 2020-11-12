@@ -1,6 +1,6 @@
 import React from 'react';
 import Picture from './components/ContentComp/Picture';
-import { pozele } from './components/ContentComp/pozele';
+import { picturi } from './components/ContentComp/picturi';
 import { schitele } from './components/ContentComp/schitele';
 import { bijuterii } from './components/ContentComp/bijuterii';
 import { decoratiuni } from './components/ContentComp/decoratiuni';
@@ -16,7 +16,7 @@ function ContentApp() {
           Picturi:
         </div>
         <div>
-          <Picture pozele = { pozele } />
+          <Picture pozele = { picturi } />
         </div>
       </div>
       <div  id = "schi-id" className='ma2'>

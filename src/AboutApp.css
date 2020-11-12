@@ -3,6 +3,23 @@
   height: 136px;
 }
 
+.logoPort {
+  width: 60px;
+  min-width: 60px;
+  height: 80px;
+}
+
 .descrierea {
   /* color: #484166; */
+}
+
+@media only screen and (max-width: 800px) {
+  .pozaa {
+    width: 70px;
+    height:76px;
+  }
+
+  .descrierea {
+    font-size: 12px;
+  }
 }
